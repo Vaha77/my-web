@@ -6,7 +6,12 @@ export const Container = styled.div`
   padding: 0 60px;
 `;
 
-export const Wrapper = styled.div`
+export const Container2 = styled.div`
+  display: flex;
+  justify-content: space-evenly;
+`;
+
+export const Wrapper1 = styled.div`
   display: flex;
   margin: 50px 0;
 `;
@@ -68,4 +73,60 @@ export const Soke = styled.div`
   font-size: 18px;
   line-height: 28px;
   color: #22343d;
+`;
+
+export const Proj = styled.div`
+  margin: 50px 10px 50px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+  :active {
+    background-color: #000000;
+  }
+`;
+
+export const Log = styled.img`
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+`;
+export const Web = styled.div`
+  font-size: 23px;
+  span {
+    color: gold;
+  }
+`;
+
+export const Git = styled.div`
+  margin: 10px 10px 50px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  a {
+    text-align: center;
+
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+  }
 `;

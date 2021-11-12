@@ -1,13 +1,15 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  margin-top: 300px;
+  margin-top: 50px;
   display: flex;
   justify-content: space-evenly;
 `;
 export const Wrapper = styled.div`
   display: flex;
+
   flex-direction: column;
+  align-items: center;
   height: 470px;
   width: 350px;
   text-align: center;
