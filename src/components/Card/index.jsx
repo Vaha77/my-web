@@ -7,7 +7,6 @@ import Link from "../../assets/img/link.svg";
 import Like from "../../assets/ion/like.svg";
 import Sms from "../../assets/ion/sms.svg";
 import Bell from "../../assets/ion/bell.svg";
-import { Proj } from "../body/style";
 export const Card = () => {
   return (
     <Container>

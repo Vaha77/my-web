@@ -65,7 +65,7 @@ export const Body = () => {
           <Git>
             <Icon src={git} alt="icon" />
             <p>
-              <a href="https://github.com/Vaha77/project-fastfood"> GitHub </a>
+              <a href="https://github.com/Vaha77/fastfud-up.git"> GitHub </a>
             </p>
           </Git>
         </Wrapper>
@@ -80,7 +80,7 @@ export const Body = () => {
           <Git>
             <Icon src={git} alt="icon" />
             <p>
-              <a href="https://github.com/Vaha77/project-fastfood"> GitHub </a>
+              <a href="https://github.com/Vaha77/pizza-main.git"> GitHub </a>
             </p>
           </Git>
         </Wrapper>
@@ -95,7 +95,10 @@ export const Body = () => {
           <Git>
             <Icon src={git} alt="icon" />
             <p>
-              <a href="https://github.com/Vaha77/project-fastfood"> GitHub </a>
+              <a href="https://github.com/Vaha77/grocery-website.git">
+                {" "}
+                GitHub{" "}
+              </a>
             </p>
           </Git>
         </Wrapper>
@@ -107,10 +110,10 @@ export const Body = () => {
           <Web>
             Web <span>(Brain)</span> Acedemy Product
           </Web>
-          <Git>
+          <Git pix>
             <Icon src={git} alt="icon" />
             <p>
-              <a href="https://github.com/Vaha77/project-fastfood"> GitHub </a>
+              <a href="https://github.com/Vaha77/calculator.git"> GitHub </a>
             </p>
           </Git>
         </Wrapper>
